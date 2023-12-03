@@ -1,0 +1,118 @@
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(15, 113, 40);
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.brand img {
+    width: 70px;
+    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font: size 1.3rem;
+}
+
+.container {
+    min-height: 63vh;
+    background-color: black;
+    color: rgb(15, 113, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url("https://www.psypost.org/wp-content/uploads/2021/08/woman-listening-to-music-1024x512.jpg");
+}
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: white;
+    color: rgb(15, 113, 40);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songItem{ 
+    height:50px;
+    display: flex;
+    background-color: rgb(201, 187, 187);
+    color: black;
+    width: 25vw;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 0 15px 0 0;
+
+}
+.songItem img {
+    height: 50px;
+    border-radius: 15px;
+
+}
+
+.time {
+    margin: 0 15px;
+}
+
+.time i {
+    cursor: pointer;
+}
+
+.songsInfo {
+    position: absolute;
+    margin: 0 20px;
+    padding: 0 25px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.songsInfo img {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
